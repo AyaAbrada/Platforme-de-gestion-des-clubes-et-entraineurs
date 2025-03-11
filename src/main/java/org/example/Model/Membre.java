@@ -3,13 +3,13 @@ import java.util.Date;
 
 public class Membre {
     String nom;
-    Date DateNessance;
-    String SportPratique;
+    Date dateNessance;
+    String sportPratique;
 
     public Membre(String nom, Date dateNessance, String sportPratique) {
         this.nom = nom;
-        DateNessance = dateNessance;
-        SportPratique = sportPratique;
+        dateNessance = dateNessance;
+        sportPratique = sportPratique;
     }
     public Membre(){}
 
@@ -22,18 +22,18 @@ public class Membre {
     }
 
     public Date getDateNessance() {
-        return DateNessance;
+        return dateNessance;
     }
 
     public void setDateNessance(Date dateNessance) {
-        DateNessance = dateNessance;
+        dateNessance = dateNessance;
     }
 
     public String getSportPratique() {
-        return SportPratique;
+        return sportPratique;
     }
 
     public void setSportPratique(String sportPratique) {
-        SportPratique = sportPratique;
+        sportPratique = sportPratique;
     }
 }

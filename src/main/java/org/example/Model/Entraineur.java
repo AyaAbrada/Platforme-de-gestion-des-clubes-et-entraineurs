@@ -2,11 +2,11 @@ package org.example.Model;
 
 public class Entraineur {
     String Nom;
-    String Specialite;
+    String specialite;
 
     public Entraineur(String nom, String specialite) {
         Nom = nom;
-        Specialite = specialite;
+        specialite = specialite;
     }
     public Entraineur(){}
 
@@ -19,10 +19,10 @@ public class Entraineur {
     }
 
     public String getSpecialite() {
-        return Specialite;
+        return specialite;
     }
 
     public void setSpecialite(String specialite) {
-        Specialite = specialite;
+        specialite = specialite;
     }
 }
