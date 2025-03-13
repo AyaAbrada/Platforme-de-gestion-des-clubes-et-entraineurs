@@ -8,7 +8,6 @@ public class UserLoginDao {
     public boolean checkLogin(String email, String mdps) {
         String query = "SELECT * FROM user WHERE email = ? AND mdps = ?";
 
-
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement ps = conn.prepareStatement(query)) {
 
@@ -22,24 +21,5 @@ public class UserLoginDao {
             e.printStackTrace();
             return false; // Retourne false en cas d'erreur
         }
-    }
-
-    // Récupérer l'id de l'utilisateur par son email (utile pour la gestion de session)
-    public int getUserId(String email) {
-        String query = "SELECT id FROM user WHERE email = ?";
-
-        try (Connection conn = DatabaseConnection.getConnection();
-             PreparedStatement ps = conn.prepareStatement(query)) {
-
-            ps.setString(1, email);
-            ResultSet rs = ps.executeQuery();
-
-            if (rs.next()) {
-                return rs.getInt("id");
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return -1; // Retourne -1 si aucun utilisateur n'est trouvé
     }
 }

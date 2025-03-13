@@ -27,7 +27,6 @@
             <select id="role" name="role" required>
                 <option value="membre">Membre</option>
                 <option value="entraineur">Entraîneur</option>
-                <option value="administrateur">Administrateur</option>
             </select>
 
             <button type="submit">S'inscrire</button>
