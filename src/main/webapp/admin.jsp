@@ -27,7 +27,6 @@
                     <td>John Doe</td>
                     <td>john@example.com</td>
                     <td>
-                        <a href="">Modifier</a>
                         <a href="">Supprimer</a>
                     </td>
                 </tr>
@@ -48,7 +47,6 @@
                     <td>Jane Doe</td>
                     <td>Fitness</td>
                     <td>
-                        <a href="">Modifier</a>
                         <a href="">Supprimer</a>
                     </td>
                 </tr>

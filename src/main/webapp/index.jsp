@@ -15,7 +15,6 @@
             <ul>
                 <li><a href="Connexion.jsp">Se connecter</a></li>
                 <li><a href="Inscription.jsp">S'inscrire</a></li>
-                <li><a href="admin.jsp">Pour l'administrateur</a></li>
             </ul>
         </nav>
     </header>

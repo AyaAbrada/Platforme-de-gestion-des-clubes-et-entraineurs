@@ -1,36 +1,17 @@
 package org.example.Model;
 
-public class Entraineur {
-    String nom;
-    String specialite;
+public class Administrateur {
     String email;
     String password;
     String role;
 
-    public Entraineur(String nom, String specialite, String email, String password) {
-        this.nom = nom;
-        this.specialite = specialite;
+    public Administrateur(String email, String password, String role) {
         this.email = email;
         this.password = password;
         this.role = role;
     }
-    public Entraineur(){}
 
-    public String getNom() {
-        return nom;
-    }
-
-    public void setNom(String nom) {
-        nom = nom;
-    }
-
-    public String getSpecialite() {
-        return specialite;
-    }
-
-    public void setSpecialite(String specialite) {
-        specialite = specialite;
-    }
+    public Administrateur(){}
 
     public String getEmail() {
         return email;

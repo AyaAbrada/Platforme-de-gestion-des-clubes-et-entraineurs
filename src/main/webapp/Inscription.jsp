@@ -13,7 +13,7 @@
         <h1>S'inscrire</h1>
     </header>
     <section>
-        <form action="" method="POST">
+        <form action="UserRegisterServlet" method="POST">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
 
@@ -27,7 +27,7 @@
             <select id="role" name="role" required>
                 <option value="membre">Membre</option>
                 <option value="entraineur">Entraîneur</option>
-                <option value="admin">Administrateur</option>
+                <option value="administrateur">Administrateur</option>
             </select>
 
             <button type="submit">S'inscrire</button>

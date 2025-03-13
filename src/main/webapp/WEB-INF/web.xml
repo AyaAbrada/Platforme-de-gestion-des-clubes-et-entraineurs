@@ -5,5 +5,4 @@
              http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
          version="2.5">
     <display-name>GestionSalleSport</display-name>
-    <!-- Add any servlet configurations here -->
 </web-app>
