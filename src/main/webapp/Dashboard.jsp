@@ -17,7 +17,9 @@
     </header>
     <section>
 
-        <a class = "bg-success rounded p-3 m-5 text-center text-light " href="demande_seance.jsp"">Demander une séance</a>
+    <div class="d-flex justify-content-center ">
+       <a class="bg-success rounded p-3 text-center text-light" href="demande_seance.jsp">Demander une séance</a>
+    </div>
         <br>
         <br>
 

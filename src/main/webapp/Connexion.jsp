@@ -13,7 +13,7 @@
         <h1>Se connecter</h1>
     </header>
     <section>
-        <form action="" method="POST">
+        <form action="UserLoginServlet" method="POST">
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" required>
 
